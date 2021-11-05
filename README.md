@@ -13,3 +13,17 @@ very well on image classification tasks. When pre-trained on large amounts of da
 #### Model overview
 <img src="vit_figure.png">
 
+We trained fpr CIFAR 10 and CIFAR 100 datasets 
+### Table 1. Results  
+| Model     | Dataset    | Accuracy     | Epochs     |
+| --------- | ---------- | ------------ | ---------- | 
+| ViT-B_16  | CIFAR 10   | 97.99%       | 500        | 
+| ViT-B_16  | CIFAR 100  | 87.28%       | 500        |
+
+
+### Table 2. Settings 
+| Parameters    | Values              | 
+| ------------- | ------------------- | 
+| Device        | Tesla V100-SXM2-32GB| 
+| Image size    | 224x224             | 
+| Patch size    | 16x16               | 
