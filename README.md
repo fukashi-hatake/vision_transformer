@@ -8,7 +8,7 @@ overall structure in place. We show that this reliance on CNNs is not necessary 
 very well on image classification tasks. When pre-trained on large amounts of data and transferred to multiple mid-sized or small image recognition benchmarks
 (ImageNet, CIFAR-100, VTAB, etc.), Vision Transformer (ViT) attains excellent results compared to state-of-the-art convolutional networks while requiring substantially fewer computational resources to train.
 
-*Figure 1: Model overview. We split an image into fixed-size patches, linearly embed each of them,add position embeddings, and feed the resulting sequence of vectors to a standard Transformer encoder. In order to perform classification, we use the standard approach of adding an extra learnable “classification token” to the sequence. 
+* Figure 1: Model overview. We split an image into fixed-size patches, linearly embed each of them,add position embeddings, and feed the resulting sequence of vectors to a standard Transformer encoder. In order to perform classification, we use the standard approach of adding an extra learnable “classification token” to the sequence. 
 
 #### Model overview
 <img src="vit_figure.png">
